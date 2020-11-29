@@ -142,6 +142,8 @@ REST_FRAMEWORK = {
     ),
 }
 
+REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
+
 SITE_ID = 1
 
 AUTH_USER_MODEL = 'core.User'
